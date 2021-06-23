@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectrum Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="mozclub logo.png" alt="logo">
+                <h1>Spectrum</h1>
+            </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Ab">About us</a></li>
+                    <li><a href="#pro">Projects</a></li>
+                    <li><a href="#cont">Contact Us</a></li>
+                    
+                </ul>
+        
+            </header> 
+    <section   id="home" class="banner">
+    </section>
+    <div id="Ab" class="about">
+        <div class="wraper">
+            <div class="underline">
+                <h1>About Us</h1>
+            </div>
+                <p>SPECTRUM ,Technical society of COLLEGE OF ENGINEERING AND TECHNOLOGY, BHUBANESWAR,a place for all
+                 technical enthusiasts to learn, discover and innovate new things in the field of Technology and Design.
+                  The name of 
+                the club " SPECTRUM ", a contribution of our alumni of 2015 batch,
+                 is particularly used to describe the characteristic colors of visible light after passing through a prism, similarly
+                 students of CET consist of different skills within them and Spectrum acts like a prism, Spectrum recognises
+                  their skills helps them to strengthen it.<br><br>This
+                  club was established by " Bikram Keshari Panda (2015 batch) ".Spectrum got its recognition 
+                in the year 2016 and got its workspace, funding and other facilities. Primarily this was his idea t
+                o have an electronics society in our college but with the efforts of other members we established two other wings - Software and Design.The other seniors who had 
+                their valuable contribution for this initiative were: Ankit Mishra, Zighnesh Biswal, Abhishek Dash, 
+                Avinash Nayak, Tapan Kumar Pal, Krutikesh Sahoo, Abhilash Das.
+                </p>
+                
+             </div>
+             <button class="see">See More</button>
+
+             <img class="bulb" src="About.png" alt="bulb">
+        </div>
+        <section id="pro" class="project">
+            <div class="wraper2">
+                <div class="underline_2">
+                    <h1>Projects</h1>
+                </div>
+            </div>
+            <div class="wrap3">
+                <div class="pro 1">
+                    <img class="image one" src="bot.jpg" alt="bot">
+                    <div class="des">
+                    <div class="under">
+                        <h1>SUPPLY BOT</h1>
+                    </div>
+                        <p>
+                            Robots help to deliver food and medicine aid in flood scenarios to the affected
+                             people in remote areas. Semi finalist at IIT bombay, Eyantra competition 2019-20.
+                        </p>
+                        <button><a href="#">Github Link</a></button>
+                    </div>
+                </div>
+                <div class="pro 2">
+                    
+                    <div class="des2">
+                    <div class="under2">
+                        <h1>FRIENDLY-MEDICO</h1>
+                    </div>
+                        <p>
+                            In this pandemic not everyone of us have the courage to go to hospitals and check
+                             our own reports.this app will take some short details and keep it in a database.
+                              In future it can be used by medicals to get the health data of a person and if
+                               any issue is found by the doctor they can directly contact them and problems 
+                               can be solved over phones.
+                        </p>
+                        <button><a href="#">Github Link</a></button>
+                        <div class="under4"></div>
+                    </div>
+                    <img class="image two" src="medical.jpg" alt="stereo">
+                </div>
+                <div class="pro 3">
+                    <img class="image three" src="python.jpg" alt="laptop">
+                    <div class="des">
+                        <div class="under3">
+                            <h1>Extractive-Text-Summarization</h1>
+                        </div>
+                        <p>
+                            A simple python program which can find the most important sentences in a paragraph
+                             and can give them as the output. Quite useful for the tasks of reading short
+                              summaries of news articles and such. Unlike machine learning models, this doesn't
+                               train but rather uses a graph based approach to rank the sentences based on their
+                                cosine similarities and give the desired output as a result.
+                        </p>
+                        <button><a href="#">Github Link</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="cont">
+         <div class="footwrap">
+            <div class="contacts">
+                <div class="underline">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="int">
+                <div class="line"><a href="#"><i class="fas fa-map-marker-alt"></i></a><p> College Of Engineering And Technology, Ghatikia, Bhubaneswar - 751003</p></div>
+                <div class="line"><a href="#"><i class="fas fa-envelope"></i></a><p>spectrumclub.cetb@gmail.com</p></div>
+                <div class="line"><a href="#"><i class="fas fa-phone-alt"></i></a><p>+91-8249063374</p></div>
+                </div>
+            </div>
+            <div class="socials">
+                <ul class="socials">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></i></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></i></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></i></li>
+                </ul>
+            </div>
+         </div>
+      
+        </footer>
+        <div class="footer-bottom">
+            <p> &copy; spectrumcet.com Designed by <span>INERTIA</span></p>
+        </div>
+      
+        <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+         }) </script>
+            
+        
+</body>
+</html>
